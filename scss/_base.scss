@@ -1,0 +1,256 @@
+body {
+
+    width: 100%;
+    font-family: 'Pridi', serif;
+    background: linear-gradient(110deg, #00408C 0%, #D9E3EE 53.65%, #FFFFFF 94.65%, #E2E9F2 99.98%, #FFFFFF 99.99%, #3A7DCD, rgba(196, 196, 196, 0));
+
+}
+
+.container {
+    width: 100%;
+}
+
+.img {
+    filter: drop-shadow(8px 5px 1px);
+    position: relative;
+    top: 45px;
+    left: 4%;
+    width: 108px;
+
+}
+
+.logo {
+    filter: drop-shadow(4px35px 5px black);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 50px;
+    width: 131px;
+    height: 130px;
+}
+
+.name {
+    filter: drop-shadow(4px 1px 1px #0000FF);
+    color: white;
+    text-shadow: 0 0 3px #00408C, 0 0 5px #0000FF;
+    font-family: Pridi;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+    width: 200px;
+
+    position: relative;
+    left: 40%;
+    top: -120px;
+}
+
+.job {
+    filter: drop-shadow(4px 1px 1px #0000FF);
+    color: white;
+    text-shadow: 0 0 3px #00408C, 0 0 5px #0000FF;
+    position: relative;
+    left: 45%;
+    bottom: 140px;
+    width: 150px;
+    font-family: Pridi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+
+.index_barre {
+    background-color: #022044, ;
+    position: relative;
+    bottom: 50px;
+    border: 1px solid #022044;
+    color: white;
+    font-family: Pridi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .name {
+        font-size: 35px;
+        width: 300px;
+        margin-top: -30px;
+    }
+
+    .job {
+        margin-top: 20px;
+        font-size: 20px;
+        width: 200px;
+        position: relative;
+        left: 43%;
+    }
+
+    .profil_description {
+        width: 170px;
+        height: 130px;
+        position: relative;
+        left: 45%;
+        line-height: 31px;
+        font-size: 14px;
+    }
+
+    .img {
+        width: 140px;
+        position: relative;
+        top: 30px;
+
+    }
+
+    .index_barre {
+        font-size: 25px
+    }
+
+
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        height: 1300px;
+    }
+
+    .img {
+        border: 1px solid #022044;
+        border-radius: 5%;
+        width: 160px;
+        position: relative;
+        top: 15px;
+
+    }
+
+    .name {
+        margin-top: -60px;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .job {
+        position: relative;
+        left: 45%;
+        font-size: 20px;
+        width: 180px;
+    }
+
+    .profil_description {
+        position: relative;
+        left: 45%;
+
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        filter: drop-shadow(0px 0px 10px grey);
+        width: 60%;
+        background: linear-gradient(110deg, #00408C 0%, #D9E3EE 53.65%, #FFFFFF 94.65%, #E2E9F2 99.98%, #FFFFFF 99.99%, #3A7DCD, rgba(196, 196, 196, 0));
+    }
+
+    body {
+
+        height: 1300px;
+        background: #022044;
+
+    }
+
+    .navbar {
+
+        width: 60%;
+        position: relative;
+        left: 20%;
+
+    }
+
+    header {
+
+        width: 100%;
+        background: #C4C4C4;
+        border: 1px solid black;
+        height: 100px;
+        margin-bottom: 50px;
+    }
+
+    .horloge {
+        width: 1px;
+        position: relative;
+        left: 1%;
+        bottom: 125%;
+    }
+
+    .logo_header {
+        filter: drop-shadow(2px 5px 20px black);
+        width: 100px;
+        position: relative;
+        left: 44%;
+        bottom: 8%;
+    }
+
+    h2 {
+        position: relative;
+        bottom: 70%;
+        left: 5%;
+    }
+
+    .logo_twitch {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        left: 96%;
+        top: -10%;
+        filter: drop-shadow(2px 5px 10px purple);
+    }
+
+
+}
+
+@media screen and(max-width: 992px) {
+    h2 {
+        display: none;
+    }
+
+    .horloge {
+        display: none;
+    }
+
+    .logo_header {
+        display: none;
+    }
+
+    .logo_twitch {
+        display: none;
+    }
+
+
+}
+
+@media screen and(min-width: 1300px) {
+    .container {
+        width: 50%;
+        height: 1300px;
+    }
+
+    .navbar {
+        width: 50%;
+        left: 25%;
+    }
+
+
+}

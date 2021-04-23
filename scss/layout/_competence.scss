@@ -1,0 +1,179 @@
+.tableau1 {
+    position: relative;
+    left: 10%;
+    bottom: 40px;
+}
+
+.tableau2 {
+    position: relative;
+    left: 10%;
+    margin-bottom: 50px;
+}
+
+.logo_comp {
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 50px;
+    width: 131px;
+    height: 130px;
+    position: relative;
+    top: 10%;
+}
+
+@media screen and(min-width:467px) {
+    .tableau1 {
+        position: relative;
+        left: -70px;
+        top: 5px;
+    }
+
+    .tableau2 {
+        position: relative;
+        top: 30px;
+        left: 15%;
+    }
+}
+
+@media screen and(min-width:600px) {
+    .tableau1 {
+        position: relative;
+        top: -50px;
+        left: 10%;
+        width: 400px;
+        height: 300px;
+    }
+
+    .tableau2 {
+        position: relative;
+        top: -20px;
+        left: 10%;
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media screen and(min-width:768px) {
+    .tableau1 {
+        position: relative;
+        left: -1%;
+        top: 0px;
+    }
+
+    .tableau2 {
+        position: relative;
+        left: 19%;
+        top: 20px;
+    }
+
+}
+
+@media screen and(min-width:991px) {
+    .tableau1 {
+        position: relative;
+        left: -10%;
+        top: 20;
+    }
+
+    .tableau2 {
+        position: relative;
+        left: 14%;
+        top: 30px;
+    }
+
+}
+
+@media screen and(min-width:1100px) {
+    .tableau1 {
+        position: relative;
+        left: -3%;
+        top: 20;
+    }
+
+    .tableau2 {
+        position: relative;
+        left: 19%;
+        top: 15%;
+    }
+
+}
+
+@media screen and(min-width:1500px) {
+    .tableau1 {
+        position: relative;
+        left: 1%;
+
+
+    }
+
+    .tableau2 {
+        position: relative;
+        left: 19%;
+        top: 150px;
+    }
+
+}
+
+@media screen and(min-width:1600px) {
+    .tableau1 {
+        position: relative;
+        left: 7%;
+
+    }
+
+    .tableau2 {
+        position: relative;
+        left: 24%;
+        top: 150px;
+
+    }
+
+
+
+}
+
+@media screen and(min-width:1800px) {
+    .tableau1 {
+        position: relative;
+        left: 3%;
+        top: 120px;
+        width: 600px;
+        height: 380px;
+    }
+
+    .tableau2 {
+        position: relative;
+        left: 18%;
+        top: 300px;
+        width: 600px;
+        height: 380px;
+    }
+
+    .logo_comp {
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 50px;
+        width: 131px;
+        height: 130px;
+        position: relative;
+        bottom: 12%;
+    }
+
+    .container {
+        height: 1600px;
+    }
+
+}
+
+@media screen and(min-width: 1300px) {
+    .logo_comp {
+        position: relative;
+        top: 17%;
+    }
+}
+
+@media screen and(min-width: 1800px) {
+    .logo_comp {
+        position: relative;
+        top: 24%;
+    }
+}

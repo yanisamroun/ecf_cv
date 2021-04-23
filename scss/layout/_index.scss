@@ -1,0 +1,36 @@
+.p_article {
+    position: relative;
+    bottom: 50px;
+    margin: 25px;
+    text-align: center;
+    font-family: Pridi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+@media screen and(min-width: 800px) {
+    .p_article {
+        font-size: 20px;
+    }
+}
+
+@media screen and(min-width: 1300px) {
+    .p_article {
+        font-size: 20px;
+    }
+}
+
+@media screen and(min-width: 1600px) {
+
+    .p_article {
+
+        font-size: 25px;
+        line-height: 55px;
+    }
+}

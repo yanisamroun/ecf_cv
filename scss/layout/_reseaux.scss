@@ -1,0 +1,74 @@
+.logo_reseaux {
+    position: relative;
+    display: flex;
+    flex-wrap: column;
+    justify-content: space-around;
+
+}
+
+.logo_article {
+    width: 100px;
+    position: relative;
+    left: 40%;
+}
+
+.logo_insta {
+    position: relative;
+    left: 10%;
+    width: 75px;
+    height: 75px;
+   
+}
+
+.logo_twitter{
+    width: 75px;
+    height: 75px;
+}
+
+.logo_fb{
+    width: 75px;
+    height: 75px;
+}
+
+.logo_pinterest{
+    width: 75px;
+    height: 75px;
+    
+    
+}
+
+.logo_linkedin{
+    width: 75px;
+    height: 75px;
+}
+
+
+
+
+@media screen and(min-width: 900px) {
+    .logo_reseaux {
+        position: relative;
+        left: 1%;
+    }
+}
+
+@media screen and(min-width: 1000px) {
+    .logo_reseaux {
+        position: relative;
+        left: 2%;
+    }
+}
+
+@media screen and(min-width: 1600px) {
+    .logo_reseaux {
+        position: relative;
+        left: 17%;
+    }
+}
+
+@media screen and(min-width: 1500px) {
+    .logo_reseaux {
+        position: relative;
+        left: 1%;
+    }
+}
